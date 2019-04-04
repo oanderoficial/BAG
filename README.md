@@ -16,4 +16,5 @@ Ocultar dados secretos em diversos tipos de arquivos de imagens.
 # :exclamation: Requisitos
 
 <p>Um sistema operacional linux.🐧 </p>
+
 [![Dependency](https://img.shields.io/badge/Dependency-steghide-blue.svg)](http://steghide.sourceforge.net)
