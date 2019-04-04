@@ -12,3 +12,8 @@ Ocultar dados secretos em diversos tipos de arquivos de imagens.
 <li><code> ./bag.sh </code></li>
 </ol>
 <img src="https://raw.githubusercontent.com/oandersonbsilva/BAG/master/Image.png">
+
+# :exclamation: Requisitos
+
+<p>Um sistema operacional linux.🐧 </p>
+[![Dependency](https://img.shields.io/badge/Dependency-steghide-blue.svg)](http://steghide.sourceforge.net)
