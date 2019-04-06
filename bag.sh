@@ -30,13 +30,13 @@ banner
 menu()
 {
    echo -e "\t\t\t $Cyan B.A.G v1.0\n"
-   echo -e "\t$Purple[1]$white $Cyan[$white Esconder Um Texto dentro de uma Imagem       $Cyan] $white: "
-   echo -e "\t$Purple[2]$white $Cyan[$white Extrair o Texto de uma Imagem                $Cyan] $white: "
-   echo -e "\t$Purple[3]$white $Cyan[$white Algoritmos de criptografia e modos suportados$Cyan] $white: "
-   echo -e "\t$Purple[4]$white $Cyan[$white Check as Informações da Imagem               $Cyan] $white: "
-   echo -e "\t$Purple[5]$white $Cyan[$white Check se o steghide está instalado           $Cyan] $white: "
-   echo -e "\t$Purple[6]$white $Cyan[$white Instalar o steghide                          $Cyan] $white: "
-   echo -e "\t$Purple[7]$white $Cyan[$white Sair                                         $Cyan] $white: "
+   echo -e "\t$Purple[1] $Cyan[$white Esconder Um Texto dentro de uma Imagem       $Cyan] $white: "
+   echo -e "\t$Purple[2] $Cyan[$white Extrair o Texto de uma Imagem                $Cyan] $white: "
+   echo -e "\t$Purple[3] $Cyan[$white Algoritmos de criptografia e modos suportados$Cyan] $white: "
+   echo -e "\t$Purple[4] $Cyan[$white Check as Informações da Imagem               $Cyan] $white: "
+   echo -e "\t$Purple[5] $Cyan[$white Check se o steghide está instalado           $Cyan] $white: "
+   echo -e "\t$Purple[6] $Cyan[$white Instalar o steghide                          $Cyan] $white: "
+   echo -e "\t$Purple[7] $Cyan[$white Sair                                         $Cyan] $white: "
    echo -e "\t$Purple Escolha uma Opção [1/2/3/4/5/6/7]?"
    echo -e "$white"
    echo -n -e $Cyan'  \t BAG@CODE:\033[0m >> '; tput sgr0
@@ -65,7 +65,6 @@ function Esconder () {
    echo -e "$yellow[!] $BlueF Pronto! Agora é só excluir o Texto Original!"
    echo -e "$yellow[!] $BlueF O Seu Texto já Está dentro da Imagem:$yellow $Esconder"
    echo -e "$yellow[!] $BlueF Para Extrair o Texto da Imagem Ultilize a Opção $yellow [2]"
-   print
 }
 
 function Extrair () {
