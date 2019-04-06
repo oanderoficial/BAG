@@ -102,12 +102,7 @@ function Instale () {
    echo -e "$yellow[!] $Cyan Instalando o steghide .... $white"
    echo `apt-get install steghide -y`
  }
- function Instale () {
-    echo -n -e $Cyan'  \t BAG@CODE:\033[0m >> '; tput sgr0
-    clear
-    echo -e "$yellow[!] $Cyan Instalando o steghide .... $white"
-    echo `apt-get install steghide -y`
-  }
+
 function sair()
 {
    echo -e "$Purple\tPressione [Enter] para Sair .............."&&read&&exit 0
