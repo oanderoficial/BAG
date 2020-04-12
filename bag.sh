@@ -29,7 +29,7 @@ banner
 
 menu()
 {
-   echo -e "\t\t\t $Cyan B.A.G v1.0\n"
+   echo -e "\t\t\t $Cyan B.A.G v1.1\n"
    echo -e "\t\t $Cyan Atenção! Não utilize Imagens $yellow(.PNG)\n"
    echo -e "\t$Purple[1] $Cyan[$white Esconder Um Texto dentro de uma Imagem       $Cyan] $white: "
    echo -e "\t$Purple[2] $Cyan[$white Extrair o Texto de uma Imagem                $Cyan] $white: "
