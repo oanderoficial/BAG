@@ -41,9 +41,9 @@ menu()
    echo -e "\t$Purple Escolha uma Opção [1/2/3/4/5/6/7]?"
    echo -e "$white"
    echo -n -e $Cyan'  \t BAG@CODE:\033[0m >> '; tput sgr0
-   read menu2
+   read menu
 
-case $menu2 in
+case $menu in
   1) Esconder;;
   2) Extrair;;
   3) algoritmos;;
