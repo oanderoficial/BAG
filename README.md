@@ -19,3 +19,7 @@ Ocultar dados secretos em diversos tipos de arquivos de imagens.
 <p>Um sistema operacional linux.🐧 </p>
 
 [![Dependency](https://img.shields.io/badge/Dependency-steghide-blue.svg)](http://steghide.sourceforge.net)
+
+# Minhas Redes
+<code><img height="100" width="100" src="https://raw.githubusercontent.com/oandersonbsilva/oandersonbsilva/master/code.png"></code>
+
