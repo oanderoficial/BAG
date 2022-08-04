@@ -64,17 +64,17 @@ function Esconder () {
    echo `steghide embed -cf $Esconder -ef $Texto `
    clear
    echo -e "$yellow[!] $BlueF Pronto! Agora é só excluir o Texto Original!"
-   echo -e "$yellow[!] $BlueF O Seu Texto já Está dentro da Imagem:$yellow $Esconder"
-   echo -e "$yellow[!] $BlueF Para Extrair o Texto da Imagem Ultilize a Opção $yellow [2]"
+   echo -e "$yellow[!] $BlueF O Seu Texto já está dentro da Imagem:$yellow $Esconder"
+   echo -e "$yellow[!] $BlueF Para extrair o texto da Imagem ultilize a opção $yellow [2]"
 }
 
 function Extrair () {
    echo -n -e $Cyan'  \t BAG@CODE:\033[0m >> '; tput sgr0
-   echo -e "$Cyan\t Digite o nome da Imagem:$white\n"
+   echo -e "$Cyan\t Digite o nome da imagem:$white\n"
    read Extrair
    echo -e `steghide extract -sf $Extrair`
    clear
-   echo -e "$yellow[!] $BlueF Texto Extraido Com Sucesso!"
+   echo -e "$yellow[!] $BlueF Texto extraido com sucesso!"
 }
 
 function algoritmos () {
@@ -84,7 +84,7 @@ function algoritmos () {
 
 function Informa () {
    echo -n -e $Cyan'  \t BAG@CODE:\033[0m >> '; tput sgr0
-   echo -e "$Cyan\t Digite o nome da Imagem:$white\n"
+   echo -e "$Cyan\t Digite o nome da imagem:$white\n"
    read Informa
    echo -e `steghide info $Informa`
 }
